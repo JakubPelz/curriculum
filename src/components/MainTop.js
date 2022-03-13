@@ -21,7 +21,17 @@ const MainTop = () => {
         <p className="p_inside_tab">jakubpelz@gmail.com</p>
         <h3>Education:</h3>
         <p className="p_inside_tab">
-          Software development in Unicorn Univeristy - in progress
+          Software development in Unicorn Univeristy - (start 2020 bc. degree)
+        </p>
+        <p className="p_inside_tab">
+          A lot's of Udemy online courses like:
+          <ul>
+            <li>The Web Developer Bootcamp</li>
+            <li>Modern React with Redux</li>
+            <li>JavaScript: The Advanced Concepts</li>
+            <li>TypeScript: The Complete Developer's guide</li>
+            <li>and few more...</li>
+          </ul>
         </p>
         <h3>Language skills:</h3>
         <p className="p_inside_tab">CZ - native speaker</p>
@@ -67,23 +77,25 @@ const MainTop = () => {
             </p>
 
             <p className="p_inside20">
-              <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-              </ul>
-              <ul>
-                <li>API</li>
-              </ul>
-              <ul>
-                <li>HTML</li>
-                <li>css</li>
-                <li>jQuery</li>
-              </ul>
-              <ul>
-                <li>UML</li>
-                <li>AGILE</li>
-              </ul>
+              <>
+                <ul>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>Python</li>
+                </ul>
+                <ul>
+                  <li>API</li>
+                </ul>
+                <ul>
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>jQuery</li>
+                </ul>
+                <ul>
+                  <li>UML</li>
+                  <li>AGILE</li>
+                </ul>
+              </>
             </p>
             <br />
           </div>
@@ -96,17 +108,20 @@ const MainTop = () => {
               <b></b>
             </p>
             <p className="p_inside20">Which of frameworks can I use?</p>
-            <ul className="p_inside20">
-              <li>Rect & Reduct</li>
-              <li>Next</li>
-              <li>Express</li>
-              <li>Bootsrap, React-Bootstrap</li>
-              <li>Semantic UI</li>
-              <li>Firebase - FE login</li>
-              <li>Firebase - DB</li>
-              <li>MongoDB</li>
-              <li>Wordpress</li>
-            </ul>
+            <>
+              <ul className="p_inside20">
+                <li>Rect & Reduct</li>
+                <li>Next</li>
+                <li>Express</li>
+                <li>Nest</li>
+                <li>Bootsrap, React-Bootstrap</li>
+                <li>Semantic UI</li>
+                <li>Firebase - FE login</li>
+                <li>Firebase - DB</li>
+                <li>MongoDB</li>
+                <li>Wordpress</li>
+              </ul>
+            </>
             <p className="p_inside20">
               The most interesting mini-project was the creation of GalleryApp.
               People can create, delete and manage galeries. Photos are stored
@@ -127,32 +142,39 @@ const MainTop = () => {
               <b>WeatherApp:</b> FE pure react app
             </p>
             <p className="p_inside20">
-              <li>2x API</li>
-              <li>pure CSS (full responsible) whit no frameworks</li>
-              <li>Reducer</li>
-              <li>
-                search box with whisperer (more than 200.000 cities in one file)
-              </li>
+              <>
+                <li>2x API</li>
+                <li>pure CSS (full responsible) with no frameworks</li>
+                <li>Reducer</li>
+                <li>
+                  search box with whisperer (more than 200.000 cities in one
+                  file)
+                </li>
+              </>
             </p>
             <p className="p_inside20">
               <b>GalleryApp</b> FE and BE all programmed in TypeScript
             </p>
             <p className="p_inside20">
-              <li>Photos are stored in MongoDB and uploaded to local disk</li>
-              <li>User can create, delete and manage galleries</li>
-              <li>
-                Each page with more than 10 photos has an automatic paginator{' '}
-              </li>
+              <>
+                <li>Photos are stored in MongoDB and uploaded to local disk</li>
+                <li>User can create, delete and manage galleries</li>
+                <li>
+                  Each page with more than 10 photos has an automatic paginator{' '}
+                </li>
+              </>
             </p>
             <p className="p_inside20">
               <b>I'm currently working on:</b> Restaurant system for small
               businesses
             </p>
             <p className="p_inside20">
-              <li>TypeScript App</li>
-              <li>Firebase - Authentication</li>
-              <li>MERN</li>
-              <li>IoT - printer</li>
+              <>
+                <li>TypeScript App</li>
+                <li>Firebase - Authentication</li>
+                <li>MERN</li>
+                <li>IoT - printer</li>
+              </>
             </p>
             <br />
           </div>
